@@ -117,7 +117,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/EcoStream-Agent.git
+git clone https://github.com/ibrhim2344/EcoStream-Agent.git
 cd EcoStream-Agent
 
 
