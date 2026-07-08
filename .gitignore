@@ -1,0 +1,51 @@
+# .gitignore
+
+# 1. استثناء ملفات البيئة الحساسة (أهم سطر لحماية مفاتيح الـ API)
+.env
+*.env
+env/
+venv/
+.venv/
+
+# 2. استثناء ملفات بايثون المؤقتة والكاش
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 3. استثناء كاش أدوات الاختبار (Pytest)
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# 4. استثناء ملفات نظام التشغيل والمحررات
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 5. استثناء ملفات التخزين المؤقت لـ Streamlit
+.streamlit/cron.yaml
